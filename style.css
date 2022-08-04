@@ -133,3 +133,22 @@ footer{
     justify-content: center;
 }
 
+
+@media only screen and (max-width: 480px) {
+    main{
+        height: 100vh;
+        width: 100%;
+        border-radius: 0;
+    }  
+
+    
+    .inputsDiv{
+        margin-top: 4.5rem;
+    }
+
+    input{
+        padding: 0.1rem 0.2rem;
+    }
+    
+}
+
