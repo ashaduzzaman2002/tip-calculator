@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body{
+    height: 100vh;
+    background-color: #8990ec;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    height: 525px;
+    width: 360px;
+    color: white;
+    background: #272639;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.inputsDiv{
+    margin-top: 2.5rem;
+}
+h2{
+    font-size: 22px;
+    margin-bottom: 0.6rem;
+}
+
+h3{
+    font-size: 18px;
+    margin-bottom: 0.6rem; 
+}
+input{
+    border: none;
+    background: none;
+    color: #ffff;
+    width: 100%;
+    outline: none;
+    padding: 0 0.2rem;
+    font-size: 1.2rem;
+}
+
+.inputDiv{
+    background-color: #353959;
+    margin-bottom: 1.8rem;
+    border-radius: 50px;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.totalDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+}
+
+.buttonContainer{
+    background: #8990ec;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+}
+
+.splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+.buttonText {
+    color: #353959 !important;
+}
+#person{
+    font-size: 1.6rem;
+    margin: 0 0.8rem;
+}
+
+#total {
+    font-size: 2rem;
+    text-align: right;
+}
+
+.totalBill{
+    width: 50%;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+    main{
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }  
+
+    
+    .inputsDiv{
+        margin-top: 4.5rem;
+    }
+
+    input{
+        padding: 0.1rem 0.2rem;
+    }
+    
+}
