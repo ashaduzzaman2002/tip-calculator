@@ -30,7 +30,6 @@ body{
     height: 100vh;
     background-color: #8990ec;
     color: #ffff;
-    overflow: hidden;
     display: flex;
     align-items: center;
 }
